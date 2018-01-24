@@ -66,3 +66,21 @@ body {
   letter-spacing: 2px;
   color: #000;
 }
+
+body
+{
+  background-color: #fcfcfc;
+}
+.container
+{
+  text-align: center;
+  padding: 15px;  
+}
+
+/* about-me */
+.about-me {
+    font-weight: 500;
+    letter-spacing: px;
+    font-size: large;
+    color: #111111;
+}

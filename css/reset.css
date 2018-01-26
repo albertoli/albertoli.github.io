@@ -404,3 +404,13 @@ cd-bounce-2-inverse {  0% {
  transform: translateX(0);
 }
 }
+
+/* Social Media Buttons in Intro */
+.network-name{
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #000;
+}

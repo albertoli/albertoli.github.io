@@ -15,14 +15,17 @@ body {
     background-size: cover;
     -o-background-size: cover;
     background-position: center;
-    background-image: linear-gradient(rgba(127, 174, 249, 0.80), rgba(0, 0, 0, 0.10)), url("../img/background/alberta.jpg");
+/*    background-image: linear-gradient(rgba(127, 174, 249, 0.80), rgba(0, 0, 0, 0.10)), url("../img/background/alberta.jpg");*/
+    background-image: url("../img/background/alberta_edit.jpg");
     background-attachment: fixed;
 
 }
 
 @media (max-width:768px) {
     body {
-        background-image: linear-gradient(rgba(127, 174, 249, 0.80), rgba(0, 0, 0, 0.10)), url("../img/background/garden.jpg");
+/*        background-image: linear-gradient(rgba(127, 174, 249, 0.80), rgba(0, 0, 0, 0.10)), url("../img/background/garden.jpg");*/
+        background-image: url("../img/background/alberta_edit.jpg");
+
     }
 }
 

@@ -24,3 +24,10 @@ jQuery(document).ready(function($){
 		});
 	}
 });
+
+$('a[data-toggle="tooltip"]').tooltip({
+    animated: 'fade',
+    placement: 'top',
+    html: true
+    
+});

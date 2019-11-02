@@ -328,7 +328,7 @@
                 <img src="img/portfolio/myangelsight.jpg" class="img-responsive" alt=""> </a>
             </div>
             <div class=" portfolio-item bf-item ml python">
-              <h3 style="padding-bottom: 0px"> Smart Hedgehog Home </h3>
+              <h3 style="padding-bottom: 0px"> IoT Hedgehog Home </h3>
               <a href="#hedgehog_home_modal" class="portfolio-link" data-toggle="modal">
                 <div class="caption">
                   <div class="caption-content">
@@ -336,31 +336,34 @@
                 </div>  
                 <img src="img/portfolio/hedgehog.jpg" class="img-responsive" alt=""> </a>
             </div>
-            <!-- <div class=" portfolio-item bf-item python web js db">
-              <a href="#food_therapy_modal" class="portfolio-link" data-toggle="modal">
+            <div class=" portfolio-item bf-item python web js db">
+              <h3 style="padding-bottom: 0px"> Bitcoin Price Analyzer </h3>
+              <a href="#bitcoin_price_analyzer_modal" class="portfolio-link" data-toggle="modal">
                 <div class="caption">
                   <div class="caption-content">
-                    <h3>Food Therapy Recommender</h3></div>
+                    <h3>Bitcoin Price Analyzer</h3></div>
                 </div>
-                <img src="./img/portfolio/food_therapy.jpg" class="img-responsive" alt=""> </a>
+                <img src="projects/bitcoin_price_analyzer/bitcoin_ui.png" class="img-responsive" alt=""> </a>
             </div>
             <div class=" portfolio-item bf-item ml python">
-              <a href="#social_dating_modal" class="portfolio-link" data-toggle="modal">
+              <h3 style="padding-bottom: 0px"> Mealy/Moore Simulator </h3>
+              <a href="#fsm_modal" class="portfolio-link" data-toggle="modal">
                 <div class="caption">
                   <div class="caption-content">
-                    <h3>Social Dating Matching</h3></div>
+                    <h3>Finite State Machine Simulator</h3></div>
                 </div>
-                <img src="./img/portfolio/social_dating.jpg" class="img-responsive" alt=""> </a>
+                <img src="./projects/finite_state_machine/fsm.jpg" class="img-responsive" alt=""> </a>
             </div>
             <div class=" portfolio-item bf-item python web js db">
-              <a href="#semesterly_modal" class="portfolio-link" data-toggle="modal">
+              <h3 style="padding-bottom: 0px"> 2D Discrete Fourier Transform </h3>
+              <a href="#2d_dft_modal" class="portfolio-link" data-toggle="modal">
                 <div class="caption">
                   <div class="caption-content">
-                    <h3>Semester.ly</h3></div>
+                    <h3>2D DFT with Concurrency</h3></div>
                 </div>
-                <img src="./img/portfolio/semesterly.png" class="img-responsive" alt=""> </a>
+                <img src="./projects/2d_dft/dft.png" class="img-responsive" alt=""> </a>
             </div>
-            <div class=" portfolio-item bf-item mobile ml python db">
+<!--           <div class=" portfolio-item bf-item mobile ml python db">
               <a href="#mavi_modal" class="portfolio-link" data-toggle="modal">
                 <div class="caption">
                   <div class="caption-content">
@@ -388,7 +391,6 @@
         </div>
       </div> -->
     </div>
-    <h3 style="text-align: center; padding-top: 50px;">Check Back Soon for more projects...</h3>
   </div>
 </section>
 <!-- Contact -->
@@ -586,7 +588,7 @@
     </div>
   </div>
 </div>
-<!-- <div class="portfolio-modal modal fade" id="food_therapy_modal" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="portfolio-modal modal fade" id="bitcoin_price_analyzer_modal" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-content">
     <div class="close-modal" data-dismiss="modal">
       <div class="lr">
@@ -597,40 +599,14 @@
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
           <div class="modal-body">
-            <h2 class="h2-boxed">Food Therapy Recommender</h2>
-            <p>Constructed a scalable food therapy recommender system based on patients' medical information in collaboration with a medical doctor. Used pyqt for local program, Django for webapp, and mongodb for database.</p>
+            <h2 class="h2-boxed">Bitcoin Price Analyzer</h2>
+            <p> Developed cryptocurrency analyzer using Apache Spark and AWS. The Bitcoin Price Analyzer application was created in order to better characterize and analyze the Bitcoin market. It will more accurately query and analyze historical data in order to make predictions with greater precision regarding the future. Some analysis such as Simple Moving Average (SMA) and Exponential Moving Average (EMA) were performed on historical market data.
+              </p>
             <ul class="list-inline item-details">
-              <li><strong><a class="btn btn-sm btn-outline" href="http://www.ansic.co.kr/"
-                             target="_blank"><i class="fa fa-fw fa-code"></i> Site</a>
-              </strong></li>
-              <li><strong><a class="btn btn-sm btn-outline" href="https://github.com/jipark721/kh_proj"
-                             target="_blank"><i class="fa fa-fw fa-github"></i> GitHub</a>
-              </strong></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="portfolio-modal modal fade" id="social_dating_modal" tabindex="-1" role="dialog" aria-hidden="true">
-  <div class="modal-content">
-    <div class="close-modal" data-dismiss="modal">
-      <div class="lr">
-        <div class="rl"></div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2">
-          <div class="modal-body">
-            <h2 class="h2-boxed">Social Dating Matching Prediction</h2>
-            <p>Modeled classification predictor using Speed Dating Experiment of 21 waves to classify dating candidates as potential or non-potential match based on demographic attributes and partner preferences using three different classification algorithms (Perceptron, SVM, KNN).</p>
-            <ul class="list-inline item-details">
-              <li><strong><a class="btn btn-sm btn-outline" href="./files/social_dating.pdf"
+              <li><strong><a class="btn btn-sm btn-outline" href="projects/bitcoin_price_analyzer/Bitcoin_Price_Analyzer.pdf"
                              target="_blank"><i class="fa fa-fw fa-file-pdf-o"></i> PDF</a>
               </strong></li>
-              <li><strong><a class="btn btn-sm btn-outline" href="https://github.com/albertoli/SocialDating_Matching_and_Clustering"
+              <li><strong><a class="btn btn-sm btn-outline" href="https://github.com/RandyDeng/CryptoAnalyzer"
                              target="_blank"><i class="fa fa-fw fa-github"></i> GitHub</a>
               </strong></li>
             </ul>
@@ -640,7 +616,7 @@
     </div>
   </div>
 </div>
-<div class="portfolio-modal modal fade" id="youniv_modal" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="portfolio-modal modal fade" id="fsm_modal" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-content">
     <div class="close-modal" data-dismiss="modal">
       <div class="lr">
@@ -651,13 +627,13 @@
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
           <div class="modal-body">
-            <h2 class="h2-boxed">Youniv.io Network Optimization</h2>
-            <p>Designed a program for an online social crowdsourcing platform Youniv.io (now Upmark.com). Devised a JavaScript program for producing optimized coordinates for each node and edge curve point by calculating collisions and minimizing noise.</p>
+            <h2 class="h2-boxed">Mealy/Moore State Machine Simulator</h2>
+            <p>Implemented a basic 1-bit, 2-bit, 3-bit and 4-bit finite state machine simulator in C++ using an adjacency list. It simulates both a Mealy and Moore state machine (choice up to user). The interface is in the form of a raw commandline interface that prints the state of the simulation in a graph or ascii table. </p>
             <ul class="list-inline item-details">
-              <li><strong><a class="btn btn-sm btn-outline" href="https://upmark.com/"
-                             target="_blank"><i class="fa fa-fw fa-code"></i> Site</a>
+              <li><strong><a class="btn btn-sm btn-outline" href="./projects/finite_state_machine/Finite_State_Machine_Report.pdf"
+                             target="_blank"><i class="fa fa-fw fa-file-pdf-o"></i> PDF</a>
               </strong></li>
-              <li><strong><a class="btn btn-sm btn-outline" href="https://github.com/Sparen/Summer2016_Network"
+              <li><strong><a class="btn btn-sm btn-outline" href="https://github.com/AlbertoLi/finite-state-machine-simulation"
                              target="_blank"><i class="fa fa-fw fa-github"></i> GitHub</a>
               </strong></li>
             </ul>
@@ -667,7 +643,34 @@
     </div>
   </div>
 </div>
-<div class="portfolio-modal modal fade" id="cafeit_modal" tabindex="-1" role="dialog" aria-hidden="true">
+ <div class="portfolio-modal modal fade" id="2d_dft_modal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-content">
+    <div class="close-modal" data-dismiss="modal">
+      <div class="lr">
+        <div class="rl"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="modal-body">
+            <h2 class="h2-boxed">2D Discrete Fourier Transorm with Concurrency</h2>
+            <p>Implemented 2D discrete fourier transform using three different methods: Thread, MPI, and Cuda and compared runtimes for each. All three approaches were performed in an HPC cluster at Georgia Tech.</p>
+            <ul class="list-inline item-details">
+              <li><strong><a class="btn btn-sm btn-outline" href="projects/2d_dft/2D_DFT_Concurrency.pdf"
+                             target="_blank"><i class="fa fa-fw fa-file-pdf-o"></i> PDF</a>
+              </strong></li>
+              <li><strong><a class="btn btn-sm btn-outline" href="https://github.com/AlbertoLi/2d-dft"
+                             target="_blank"><i class="fa fa-fw fa-github"></i> GitHub</a>
+              </strong></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- <div class="portfolio-modal modal fade" id="cafeit_modal" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-content">
     <div class="close-modal" data-dismiss="modal">
       <div class="lr">
